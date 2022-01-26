@@ -10,7 +10,7 @@ const server = http.createServer(app);
 const io = socketio(server);
 
 // DB Connections
-moongose.connect('mongodb://localhost/chat-database')
+moongose.connect('mongodb://mongodb+srv://chat-database.ocpzh.mongodb.net/myFirstDatabase --username thombo30')
     .then(db => console.log('db is connected'))
     .catch(err => console.log(err))
 
