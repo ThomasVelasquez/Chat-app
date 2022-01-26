@@ -1,0 +1,168 @@
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}    
+
+#contentwrap{
+    display:none
+}
+
+.error{
+    color: red;
+}
+
+.whisper{
+    color: gray;
+    font-style: italic;
+}
+
+/* Añadiendo Responsive */
+
+@media (max-width: 1366px) {
+
+    #nickwrap{
+        width: 50%;
+    }
+
+   .box{
+       position: relative;
+       right: 6rem;
+   }
+   .box2{
+       position: relative;
+       left: 35rem;
+       bottom:23rem;
+   }
+}
+
+@media (max-width:1199px ) {
+
+    #nickwrap{
+        width: 50%;
+    }
+
+   .box{
+       position: relative;
+       right: 4rem;
+   }
+
+   .box2{
+       position: relative;
+       left: 31rem;
+       bottom: 23rem;
+   }
+}
+
+@media (max-width: 991px ) {
+
+    #nickwrap{
+        width: 50%;
+    }
+
+    .box{
+        position: relative;
+        right: 2rem;
+    }
+
+    .box2{
+        position: relative;
+        left: 24rem;
+        bottom:24.3rem;
+    }
+}
+
+@media (max-width:767px ) {
+  
+    #nickwrap{
+        width: 50%;
+    }
+
+    .box{
+       width: 70%;
+   }
+
+   .box2{
+       width: 40%;
+       position: relative;
+       left: 22rem;
+       bottom:22.8rem;
+   }
+}
+
+@media (max-width: 702px) {
+   .box2{
+       width: 25%;
+   }
+}
+
+@media (max-width:575px ) {
+   
+    .box{
+        width: 50%;
+        position: relative;
+        left:3rem;
+    }
+
+    .box2{
+       width: 30%;
+       bottom:24.3rem
+   }
+}
+
+@media (max-width: 539px) {
+   .box2{
+       width: 30%;
+       bottom:25.7rem;
+   }
+}
+
+@media (max-width:468px ) {
+   .box{
+       width: 50%;
+       position: relative;
+   }
+
+   .box2{
+       width: 25%;
+       position: relative;
+       left: 18rem;
+       bottom: 27.2rem;
+   }
+}
+
+@media (max-width: 420px) {
+   
+    .box{
+        width: 60%;
+        position: relative;
+        left: 1rem;
+    }
+
+    .box2{
+       width: 30%;
+       position: relative;
+       left: 16rem;
+       bottom: 27.3rem;
+   }
+}
+
+@media (max-width: 375px) {
+    
+    h3{
+        font-size: 1.3rem;
+    }
+
+    .box{
+        width: 60%;
+        position: relative;
+        left: 1rem;
+    }
+
+    .box2{
+       width: 30%;
+       position: relative;
+       left: 15rem;
+       bottom: 27.3rem;
+   }
+}
